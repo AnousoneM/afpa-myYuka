@@ -1,1 +1,33 @@
-<p class="text-danger">home works!</p>
+<!-- div permettant au footer d'être toujours en bas -->
+<div class="d-flex flex-column min-vh-100">
+
+    <header class="row py-4 justify-content-center text-center shadow">
+        <h1>My YuKa <i class="bi bi-basket"></i></h1>
+        <blockquote class="blockquote">
+            <p>Mangeons mieux, mangeons bien ...</p>
+        </blockquote>
+    </header>
+
+    <div class="row justify-content-center identify my-lg-auto">
+        <div class="col-lg-4 m-lg-3 m-0 border-identify rounded">
+            <div class="mb-lg-3 p-3 text-center">
+                <p class="h2">Saisie Manuelle</p>
+                <label for="barCodeNumber" class="form-label">Numéro du code barre</label>
+                <input type="text" class="form-control" id="barCodeNumber" placeholder="ex. 03453009">
+                <button class="btn btn-secondary mt-2">Rechercher</button>
+            </div>
+        </div>
+
+        <div class="col-lg-1 align-self-center text-center">ou</div>
+
+        <div class="col-lg-4 m-lg-3 text-center border-identify rounded">
+            <p class="m-0">Scanne du Code Barre</p>
+            <button class="btn btn-outline-secondary mb-2"><i class="bi bi-upc-scan scanButton p-4"></i></button>
+        </div>
+    </div>
+    
+    <footer class="row text-center mt-auto">
+        <a class="text-white text-decoration-none align-self-center" href="">Mentions légales - Afpa - May 2023</a>
+    </footer>
+
+</div>

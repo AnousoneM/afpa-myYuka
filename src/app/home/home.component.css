@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+header {
+    font-family: 'Patrick Hand SC', cursive;
+    color: white;
+    background-color: teal;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+.identify {
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.border-identify {
+    border: 1px grey solid;
+}
+
+.scanButton {
+    font-size: 8rem;
+}
+
+footer {
+    background-color: teal;
+    height: 5rem;
+    font-size: 0.8rem;
+}
+
+/* CUSTOM MEDIA QUERY */
+@media screen and (max-width:480px) {
+
+    .border-identify {
+        border: none;
+    }
+ 
+
+}
